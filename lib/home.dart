@@ -9,7 +9,16 @@ class Home extends StatelessWidget {
       appBar:AppBar(
         title: const Text('Hello'),
       ),
-      body: const Text(''),
+      body: Container(
+        height: 56,
+        padding:  const EdgeInsets.symmetric(horizontal: 8.0),
+        decoration: BoxDecoration(
+          color: const Color.fromARGB(0, 23, 24,5),
+          border:Border.all(color: const Color.fromARGB(5, 150, 160, 53),
+          )
+        ),
+
+      ),
     );
   }
 }
